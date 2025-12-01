@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-xxs: 340px;
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 960px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1600px;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
